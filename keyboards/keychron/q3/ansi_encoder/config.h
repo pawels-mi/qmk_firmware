@@ -33,7 +33,7 @@
 
 /* Enable CapsLcok LED */
 #define CAPS_LOCK_LED_INDEX 50
-#define NUM_LOCK_LED_INDEX 10
+#define NUM_LOCK_LED_INDEX 13
 
 #define TAPPING_TERM 200
 #define DYNAMIC_KEYMAP_LAYER_COUNT 6
