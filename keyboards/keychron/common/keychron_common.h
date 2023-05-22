@@ -31,13 +31,29 @@ enum custom_keycodes {
     KC_TASK_VIEW,
     KC_FILE_EXPLORER,
     KC_SCREEN_SHOT,
-    KC_CORTANA
+    KC_CORTANA,
+
+    // Custom
+    KC_CHROME,
+    KC_OUTLOOK,
+    KC_TILIX,
+    KC_INTELLIJ,
+    KC_MACRO_1,
+    KC_MACRO_2
 };
 
 #define KC_TASK KC_TASK_VIEW
 #define KC_FLXP KC_FILE_EXPLORER
 #define KC_SNAP KC_SCREEN_SHOT
 #define KC_CRTA KC_CORTANA
+
+// Custom
+#define KC_CHRM KC_CHROME
+#define KC_OUTL KC_OUTLOOK
+#define KC_TILI KC_TILIX
+#define KC_IDEA KC_INTELLIJ
+#define KC_M_1  KC_MACRO_1
+#define KC_M_2  KC_MACRO_2
 
 typedef struct PACKED {
     uint8_t len;
